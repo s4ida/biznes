@@ -1,0 +1,427 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-color: #F7F7F7;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+}
+
+header .head {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navimg {
+  width: 200px;
+  height: 50%;
+  background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/logo/logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar {
+  width: 30%;
+  height: 40%;
+  font-size: 20px;
+  background-color: white;
+}
+.navbar ul {
+  gap: 20px;
+  background-color: white;
+}
+
+.homesection {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/h1_hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homesection .row {
+  width: 80%;
+}
+.homesection .row h1 {
+  width: 50%;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+.homesection .row p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.homesection .row button {
+  width: 250px;
+  height: 70px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #EB566C;
+  border: none;
+}
+.homesection .row .commit {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  color: #EB566C;
+  font-size: 25px;
+  width: 40%;
+}
+.homesection .row .commit .line {
+  width: 80px;
+  height: 3px;
+  background-color: #EB566C;
+}
+
+#ourbestservices {
+  width: 100%;
+  background-color: #F7F7F7;
+}
+#ourbestservices .container .row .servicedivs {
+  cursor: pointer;
+  border-radius: 10px;
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  height: 400px;
+}
+#ourbestservices .container .row .servicedivs i {
+  font-size: 90px;
+  color: #EB566C;
+}
+#ourbestservices .container .row .servicedivs h4 {
+  font-size: 30px;
+}
+#ourbestservices .container .row .servicedivs:hover {
+  background-color: #EB566C;
+  color: white;
+  transition: 2s;
+}
+#ourbestservices .container .row .servicedivs:hover i {
+  color: white;
+}
+#ourbestservices .container .row .carts {
+  display: flex;
+  flex-direction: column;
+}
+#ourbestservices .container .row .headerdiv {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#ourbestservices .container .row .headerdiv h1 {
+  font-size: 50px;
+}
+#ourbestservices .container .row .headerdiv .textitem {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
+#ourbestservices .container .row .headerdiv .textitem .line {
+  width: 100px;
+  height: 5px;
+  background-color: #FF2143;
+}
+#ourbestservices .container .row .headerdiv .textitem p {
+  font-size: 30px;
+  margin-bottom: 0;
+  color: #FF2143;
+}
+
+#moreaboutservices {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/assets/img/section_bg02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#moreaboutservices .container .row .texxt {
+  color: white;
+  gap: 20px;
+}
+#moreaboutservices .container .row .texxt .moreaboutbtn {
+  width: 300px;
+  height: 70px;
+  margin-top: 20px;
+  font-size: 20px;
+  border: none;
+  background-color: #FF2147;
+  color: white;
+}
+#moreaboutservices .container .row .texxt .moreaboutbtn:hover {
+  background-color: white;
+  color: black;
+  transition: 2s;
+}
+#moreaboutservices .container .row .texxt .headerdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#moreaboutservices .container .row .texxt .headerdiv .textitem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+}
+#moreaboutservices .container .row .texxt .headerdiv .textitem .line {
+  width: 100px;
+  height: 3px;
+  background-color: #FF2143;
+  margin-bottom: 20px;
+}
+
+#featuredstudy .container {
+  background-color: #F7F7F7;
+  margin-top: 20px;
+}
+#featuredstudy .container .row .headerdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: 400px;
+  justify-content: center;
+}
+#featuredstudy .container .row .headerdiv .textitem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+}
+#featuredstudy .container .row .headerdiv .textitem .line {
+  width: 100px;
+  height: 3px;
+  background-color: #FF2143;
+  margin-bottom: 20px;
+}
+#featuredstudy .container .row .mycartselements {
+  position: relative;
+  height: 600px;
+}
+#featuredstudy .container .row .mycartselements .people {
+  width: 100%;
+  height: 400px;
+}
+#featuredstudy .container .row .mycartselements .carttexts {
+  width: 80%;
+  background-color: white;
+  position: absolute;
+  bottom: 120px;
+  height: 160px;
+}
+#featuredstudy .container .row .mycartselements .carttexts .linep {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: start;
+  gap: 20px;
+  font-size: 20px;
+  color: #FF2143;
+}
+#featuredstudy .container .row .mycartselements .carttexts .linep .line {
+  width: 40px;
+  height: 2px;
+  background-color: #FF2143;
+  margin-bottom: 20px;
+}
+
+#totalsection {
+  height: 1200px;
+  margin-bottom: 20px;
+  padding: 30px 0px;
+}
+#totalsection .row .totalimg {
+  background-image: url(/assets/img/section_bg04.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+#totalsection .row .totalimg i {
+  font-size: 200px;
+  color: #F04E3C;
+}
+#totalsection .row .totalimg .informdiv {
+  width: 350px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+#totalsection .row .totalimg .informdiv img {
+  width: 40%;
+  height: 100%;
+}
+#totalsection .row .demonstrators {
+  background-color: white;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  border: 5px solid black;
+}
+#totalsection .row .demonstrators h1 {
+  font-size: 90px;
+  color: black;
+}
+#totalsection .row .demonstrators p {
+  font-size: 30px;
+  color: #4E627A;
+}
+
+#members .container .row .headerdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  height: 400px;
+  justify-content: center;
+}
+#members .container .row .headerdiv .textitem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 30px;
+}
+#members .container .row .headerdiv .textitem .line {
+  width: 100px;
+  height: 3px;
+  background-color: #FF2143;
+  margin-bottom: 20px;
+}
+#members .container .row .member {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  padding-top: 0px;
+}
+#members .container .row .member img {
+  width: 100%;
+}
+#members .container .row .member p {
+  font-size: 25px;
+  font-weight: bolder;
+}
+#members .container .row .member .textitem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 25px;
+  color: #EB566C;
+}
+#members .container .row .member .textitem .line {
+  width: 50px;
+  height: 3px;
+  background-color: #FF2143;
+  margin-bottom: 20px;
+}
+
+#First-ClassConsultant {
+  background-image: url(/assets/img/section_bg03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+#First-ClassConsultant .container .First-ClassConsultantitems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#First-ClassConsultant .container .First-ClassConsultantitems h1 {
+  font-size: 60px;
+  color: white;
+}
+#First-ClassConsultant .container .First-ClassConsultantitems .aboutusbtn {
+  width: 350px;
+  height: 60px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+#First-ClassConsultant .container .First-ClassConsultantitems .aboutusbtn:hover {
+  background-color: white;
+  color: black;
+  transition: 2s;
+}
+
+#ideassection {
+  position: relative;
+  height: 600px;
+}
+#ideassection .people {
+  width: 100%;
+  height: 400px;
+}
+#ideassection .carttexts {
+  width: 80%;
+  background-color: white;
+  position: absolute;
+  bottom: 120px;
+  height: 160px;
+}
+#ideassection .carttexts .linep {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: start;
+  gap: 20px;
+  font-size: 20px;
+  color: #FF2143;
+}
+#ideassection .carttexts .linep .line {
+  width: 40px;
+  height: 2px;
+  background-color: #FF2143;
+  margin-bottom: 20px;
+}

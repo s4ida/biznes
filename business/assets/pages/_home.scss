@@ -1,0 +1,474 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+main{
+    background-color: #F7F7F7;
+}
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $second-color;
+    position: fixed;
+    z-index: 1;
+}
+
+header .head {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navimg {
+    width: 200px;
+    height: 50%;
+    background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/logo/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.navbar {
+    width: 30%;
+    height: 40%;
+    font-size: 20px;
+    background-color:$second-color;
+
+    ul {
+        gap: 20px;
+        background-color: $second-color;
+    }
+}
+
+.homesection {
+    width: 100%;
+    height: 800px;
+    background-image: url('../img/h1_hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .row {
+        width: 80%;
+
+        h1 {
+            width: 50%;
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            width: 250px;
+            height: 70px;
+            color: $second-color;
+            font-size: 20px;
+            font-weight: bold;
+            background-color:$main-color;
+            border: none;
+        }
+
+        .commit {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 20px;
+            color:$main-color;
+            font-size: 25px;
+            width: 40%;
+
+            .line {
+                width: 80px;
+                height: 3px;
+                background-color: $main-color;
+            }
+        }
+    }
+
+}
+
+#ourbestservices {
+    width: 100%;
+
+background-color: #F7F7F7;
+    .container {
+        // width: 100%;
+        // height: 100%;
+
+        .row {
+
+            .servicedivs {
+    cursor: pointer;
+    border-radius: 10px;
+                gap: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+           background-color:$second-color;
+                font-size: 20px;
+                text-align: center;
+                margin: 20px;
+                height: 400px;
+                i{
+                    font-size: 90px; 
+                    color: $main-color;
+                }
+                h4{
+                    font-size: 30px;
+                }
+                
+            }
+            .servicedivs:hover{
+                background-color: $main-color ;
+                color: $second-color;
+                transition: 2s;
+                i{
+                    color: $second-color;
+                }
+            }
+            .carts {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .headerdiv {
+                height: 400px;
+                display: flex;
+                flex-direction: column;
+            justify-content: center;
+            
+                margin-bottom: 20px;
+                h1 {
+                    font-size: 50px;
+                    
+                }
+
+                .textitem {
+                    width: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                    gap: 20px;
+
+                    .line {
+                        width: 100px;
+                        height: 5px;
+                        background-color:$fourth-color;
+                    }
+
+                    p {
+                        font-size: 30px;
+                        margin-bottom: 0;
+                        color: $fourth-color;
+                    }
+                }
+            }
+        }
+    }
+}
+#moreaboutservices{
+    width: 100%;
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+background-image: url(/assets/img/section_bg02.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+    .container{
+     
+        .row{
+     
+    
+            .texxt{
+                color: $second-color;
+                gap: 20px;
+         
+                .moreaboutbtn{
+                    width: 300px;
+                    height: 70px;
+                    margin-top: 20px;
+                 font-size: 20px;
+                 border: none;
+                 background-color: #FF2147;
+                 color: $second-color;
+                }
+                .moreaboutbtn:hover{
+background-color:$second-color;
+color: $third-color;
+transition: 2s;
+                }
+                .headerdiv{
+                 display: flex;
+                 flex-direction: column;
+                 align-items: start;
+            
+                    .textitem{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 20px;
+                        font-size: 30px;
+
+                        .line{
+                            width: 100px;
+                            height: 3px;
+                            background-color: $fourth-color;
+                            margin-bottom: 20px;
+                        }
+                    }
+
+                }
+            }
+            }
+            
+    }
+  
+}
+#featuredstudy{
+    .container{
+     background-color: #F7F7F7;
+     margin-top: 20px;
+        .row{
+                .headerdiv{
+                 display: flex;
+                 flex-direction: column;
+                 align-items: start;
+            height: 400px;
+            justify-content: center;
+                    .textitem{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 20px;
+                        font-size: 30px;
+
+                        .line{
+                            width: 100px;
+                            height: 3px;
+                            background-color: $fourth-color;
+                            margin-bottom: 20px;
+                        }
+}}
+.mycartselements{
+position: relative;
+    height: 600px;
+    .people{
+        width: 100%;
+       height: 400px;
+    
+    }
+    .carttexts{
+width: 80%;
+background-color:$second-color ;
+position: absolute;
+bottom: 120px;
+height: 160px;
+
+.linep{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content:start;
+    gap: 20px;
+    font-size: 20px;
+    color:  $fourth-color;
+    .line{
+        width: 40px;
+        height: 2px;
+        background-color: $fourth-color;
+        margin-bottom: 20px;
+    }
+}
+    }
+}
+}}
+}
+#totalsection{
+    height: 1200px;
+margin-bottom: 20px;
+padding: 30px 0px;
+    .row{
+       
+
+.totalimg{
+    background-image: url(/assets/img/section_bg04.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+gap: 40px;
+  
+
+i{
+    font-size: 200px;
+    color: #F04E3C;
+}
+.informdiv{
+    width: 350px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 40%;
+        height: 100%;
+       
+    }
+  
+}
+}
+.demonstrators{
+background-color: $second-color;
+height: 200px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+margin: 10px;
+border: 5px solid black;
+h1{
+    font-size: 90px;
+    color: $third-color;
+}
+p{
+    font-size: 30px;
+    color: #4E627A;
+}
+}
+}
+}
+#members{
+
+    .container{
+        .row{
+            .headerdiv{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+           height: 400px;
+           justify-content: center;
+                   .textitem{
+                       display: flex;
+                       align-items: center;
+                       justify-content: center;
+                       gap: 20px;
+                       font-size: 30px;
+
+                       .line{
+                           width: 100px;
+                           height: 3px;
+                           background-color: $fourth-color;
+                           margin-bottom: 20px;
+                       }
+        }
+    }
+
+    .member{
+ 
+   
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+background-color: white;
+padding-top: 0px;
+     img{
+        width: 100%;
+     
+     }
+     p{
+        font-size: 25px;
+        font-weight: bolder;
+     }
+     .textitem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        font-size: 25px;
+color: $main-color;
+        .line{
+            width: 50px;
+            height: 3px;
+            background-color: $fourth-color;
+            margin-bottom: 20px;  
+        }
+    }
+        }}}}
+        #First-ClassConsultant{
+            background-image: url(/assets/img/section_bg03.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+       height: 400px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-top: 20px;
+       .container{
+.First-ClassConsultantitems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1{
+        font-size: 60px;
+color: white;
+    }
+    .aboutusbtn{
+        width: 350px;
+        height: 60px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+
+
+}
+.aboutusbtn:hover{
+    background-color: white;
+    color: black;
+    transition: 2s;
+}
+       }
+        }}
+        #ideassection{
+        position: relative;
+    height: 600px;
+    position: relative;
+    .mycartselements{
+        position: relative;
+        .people{
+            width: 100%;
+           height: 400px;
+        
+        }
+        .ideasimg{
+ 
+    
+        }
+    }
+   
+}
